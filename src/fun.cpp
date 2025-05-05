@@ -34,7 +34,6 @@ unsigned int faStr1(const char *str) {
 unsigned int faStr2(const char* str) {
     unsigned int count = 0;
     while (*str) {
-        // Пропускаем пробелы
         while (*str && std::isspace(*str)) {
             ++str;
         }
